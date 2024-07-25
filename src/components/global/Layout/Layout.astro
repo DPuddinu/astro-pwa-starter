@@ -162,7 +162,11 @@ const {
 		<link rel="manifest" href="/manifest.webmanifest" />
 	</head>
 	<body class="min-h-screen flex flex-col w-full overflow-x-hidden">
-		<main class="flex flex-1 flex-col h-[100%] w-full">
+		<main class="flex flex-1 flex-col h-full w-full">
+			<header class="flex gap-4">
+				<a href="/" class="font-bold">home</a>
+				<a href="/info" class="font-bold">info</a>
+			</header>
 			<slot />
 		</main>
 
