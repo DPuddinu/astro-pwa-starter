@@ -1,6 +1,9 @@
 ---
 // Component imports
 import { Layout } from "@globals"
+
+const sleep = new Promise(resolve => setTimeout(resolve, 3000))
+await sleep
 ---
 
 <Layout title="Astro PWA Starter">
@@ -10,7 +13,7 @@ import { Layout } from "@globals"
 			class="max-w-xl mx-auto flex flex-col justify-center flex-1 space-y-10"
 		>
 			<div class="space-y-2 text-center">
-				<h1 class="text-4xl font-semibold">🟢 astro-pwa-starter</h1>
+				<h1 class="text-4xl font-semibold">🟢 info page</h1>
 				<p class="italic">
 					It works! Check out <span class="p-1 rounded-lg bg-gray-100 font-mono"
 						>/src/pages</span
