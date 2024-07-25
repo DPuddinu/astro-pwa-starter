@@ -31,7 +31,7 @@ export const manifest: Partial<ManifestOptions> = {
 		"Astro PWA Starter is an opionated Astro starter for building robust static websites.", // Change this to your websites description.
 	theme_color: "#30E130", // Change this to your primary color.
 	background_color: "#ffffff", // Change this to your background color.
-	display: "minimal-ui",
+	display: "standalone",
 	icons: [
 		{
 			src: "/favicons/favicon-192x192.png",
